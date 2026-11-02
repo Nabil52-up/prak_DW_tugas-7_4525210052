@@ -1,4 +1,4 @@
-# Praktikum Desain Web — Form Pendaftaran Mahasiswa
+z# Praktikum Desain Web — Form Pendaftaran Mahasiswa
 
 Tugas Praktikum Desain Web Pertemuan 7 (**HTML Form Dasar: Input & Pengiriman Data**).
 
@@ -74,14 +74,15 @@ Form menggunakan tiga jenis button sesuai ketentuan tugas.
 
 Menampilkan header, Nama Lengkap, Email, Password, dan Umur.
 
-![Tampilan bagian atas form] <img width="862" height="702" alt="ss-tugas (1)" src="https://github.com/user-attachments/assets/b6ed32dd-1253-4a12-8a24-a344f1a9fde2" />
+![Tampilan bagian atas form] <img width="892" height="746" alt="ss-tugas" src="https://github.com/user-attachments/assets/c6693f59-b051-4535-ab6a-deee2a7b3601" />
+
 
 
 ### Bagian bawah form
 
 Menampilkan Tanggal Lahir, Program Studi, Alamat, dan ketiga tombol.
 
-![Tampilan bagian bawah form](imaages/ss-tugas(1).png)
+![Tampilan bagian bawah form]<img width="862" height="702" alt="ss-tugas1" src="https://github.com/user-attachments/assets/126d6943-4b86-4003-be82-2085b8a22a03" />
 
 ---
 
