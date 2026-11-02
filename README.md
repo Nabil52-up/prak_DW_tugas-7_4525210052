@@ -74,7 +74,8 @@ Form menggunakan tiga jenis button sesuai ketentuan tugas.
 
 Menampilkan header, Nama Lengkap, Email, Password, dan Umur.
 
-![Tampilan bagian atas form](images/ss-tugas.png)
+![Tampilan bagian atas form] <img width="862" height="702" alt="ss-tugas (1)" src="https://github.com/user-attachments/assets/b6ed32dd-1253-4a12-8a24-a344f1a9fde2" />
+
 
 ### Bagian bawah form
 
