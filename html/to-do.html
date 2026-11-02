@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Mata Kuliah</title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+
+    <main class="container">
+        <p class="subtitle">PENDAFTARAN</p>
+        <h1>Form Pendaftaran Mata Kuliah</h1>
+        <p class="description">
+            Silakan lengkapi data berikut dengan benar.
+        </p>
+
+        <form action="/proses-pendaftaran" method="post">
+
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama"
+                       placeholder="Masukkan nama lengkap" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                       placeholder="nama@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"
+                       placeholder="Masukkan password"
+                       minlength="8" required>
+                <small>Gunakan minimal 8 karakter.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="nilai">Nilai</label>
+                <input type="number" id="nilai" name="nilai"
+                       placeholder="Contoh: 80"
+                       min="0" max="100" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tanggal_lahir">Tanggal Lahir</label>
+                <input type="date" id="tanggal_lahir"
+                       name="tanggal_lahir" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mata_kuliah">Mata Kuliah</label>
+                <select id="mata_kuliah" name="mata_kuliah" required>
+                    <option value="">-- Pilih Mata Kuliah --</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Java">Java</option>
+                    <option value="Basis Data">Basis Data</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Jenis Kelamin</label>
+                <div class="radio-group">
+                    <label class="radio-option">
+                        <input type="radio" id="laki_laki"
+                               name="jenis_kelamin" value="Laki-laki" required>
+                        Laki-laki
+                    </label>
+
+                    <label class="radio-option">
+                        <input type="radio" id="perempuan"
+                               name="jenis_kelamin" value="Perempuan">
+                        Perempuan
+                    </label>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Daftar</button>
+                <button type="reset">Reset</button>
+                <button type="button"
+                    onclick="alert('Silakan lengkapi data pendaftaran.')">
+                    Bantuan
+                </button>
+            </div>
+
+        </form>
+    </main>
+
+</body>
+</html>
